@@ -1,0 +1,65 @@
+<lg-host citrixSupport="false" hostname="localhost:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="false"
+    uid="e4178470-f38b-4df7-b4b2-94ab4609e002" version="7.9.1;build=20210423-80">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:6464:6d0e:8f82:729d%wlan1">
+            <ip value="fe80:0:0:0:6464:6d0e:8f82:729d%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Fortinet SSL VPN Virtual Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth8">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:cc71:f2d1:cf7e:9a22%eth8">
+            <ip value="fe80:0:0:0:cc71:f2d1:cf7e:9a22%eth8"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Intel(R) Dual Band Wireless-AC 3165"
+        enabled="false" isLoopBack="false" name="wlan0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="compass1121">
+            <ip value="192.168.1.6"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:20f2:7c1b:a768:1bfa%wlan0">
+            <ip value="fe80:0:0:0:20f2:7c1b:a768:1bfa%wlan0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Realtek PCIe GBE Family Controller"
+        enabled="false" isLoopBack="false" name="eth7">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:b599:21b4:a5a8:661b%eth7">
+            <ip value="fe80:0:0:0:b599:21b4:a5a8:661b%eth7"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Fortinet Virtual Ethernet Adapter (NDIS 6.30)"
+        enabled="false" isLoopBack="false" name="eth5">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="compass1121">
+            <ip value="192.168.8.204"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:d53c:cff7:b22c:b9fb%eth5">
+            <ip value="fe80:0:0:0:d53c:cff7:b22c:b9fb%eth5"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
